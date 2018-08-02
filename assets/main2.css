@@ -36,20 +36,13 @@ font-family: 'Roboto Condensed', sans-serif;
 	border-width: medium;
 	
 }
-#bs{
-	float: left;
-}
-#as{
-	float: right;
-}
+
 
 @media only screen and (max-width: 600px){
 	
-#bs{
-	float: none;
+.btn-danger{
+	margin-top: 20px;
 }
-#as{
-	float: none;
-}
+
 }
 
