@@ -1,0 +1,177 @@
+*.{
+	margin: 0px;
+padding: 0px;
+overflow-y: hidden;
+overflow-x: hidden;
+	}
+	html{
+overflow-y: hidden;
+overflow-x: hidden;
+	}
+	.cntainer{
+		position: relative;
+		width: 100%;
+		height: 800px;
+	}
+	#ud1{
+		width: 100%;
+		height: 600px;
+	}
+	.abc{
+		position: absolute;
+		background-color: black;
+		opacity: 0.6;
+
+		left: 0;
+		bottom: 0;
+		right: 0;
+height:100%;
+
+	}
+	.typed{
+		display: inline;
+		font-weight: bold;
+
+	}
+	.tex1{
+		position: absolute;
+
+		color: white;
+	}
+
+@media only screen and (min-width: 801px)
+{
+
+	.tex1{
+		bottom: 40%;
+		left: 30%;
+	}
+	.typed{
+	font-size: 80px;
+}
+
+
+.row{
+	width: 96%;
+
+}
+}
+
+@media only screen and (max-width: 800px)   {
+	
+.tex1{
+	bottom:30%;
+	left:27%;
+}
+
+
+.typed{
+	font-size: 50px;
+}
+
+.row{
+	width: 90%;
+
+}
+}
+
+
+@media only screen and (max-width: 768px)   {
+
+.tex1{
+	bottom:30%;
+	left:27%;
+}
+
+
+.typed{
+	font-size: 50px;
+}
+
+.row{
+	width: 90%;
+
+}
+}
+
+
+@media only screen and (max-width: 600px)   {
+.tex1{
+	bottom:30%;
+	left:30%;
+}
+
+.typed{
+	font-size: 50px;
+}
+
+.row{
+	width: 90%;
+
+}
+}
+@media only screen and (max-width: 400px)   {
+.tex1{
+	bottom:30%;
+	left:2%;
+}
+
+.typed{
+	font-size: 40px;
+}
+.row{
+	width: 90%;
+
+}
+
+
+}
+.container{
+	padding: 10px;
+	margin:auto;
+}
+
+.btn-success{
+	transition: 1s;
+	margin:auto ;
+	background-color: transparent;
+	bottom: 50%;
+	width:200px;
+	border-color: #DAA520;
+	padding: 10px;
+}
+.btn-success:hover{
+	transition: 1s;
+	background-color: 	#DAA520;
+	border-color:#DAA520;
+	border-width: medium;
+	
+}
+
+.btn-primary{
+	transition: 1s;
+	margin:auto ;
+	border-color:#A0522D;
+	background-color: transparent;
+	width:200px;
+	padding: 10px;
+	
+	border-width: thin;
+}
+.btn-primary:hover{
+	transition: 1s;
+	border-width: medium;
+	background-color: #A0522D;
+	border-color: #A0522D;
+}
+body{
+	overflow-y: hidden;
+	overflow-x: hidden;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("d2.jpg");
+		background-position: center;
+			background-repeat:  no-repeat;
+			background-size:  cover;
+		position: relative;
+		width: 100%;
+		height: 100%;
+}
